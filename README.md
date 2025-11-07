@@ -26,16 +26,14 @@ This project focuses on the **finite-time horizon MV problem**, extending the ex
 - Initialize a Gaussian policy with chosen mean and variance.
 - Iteratively update the policy based on the **value function** of the current policy.
 - Exploit the **explicit parametric form** to separate exploration and exploitation.
-- Compare performance against:
-  1. **Adaptive control** using real-time maximum likelihood parameter estimation.
-  2. **Continuous control RL** via deep deterministic policy gradient (DDPG) with neural networks.
+- Compare performance against: **Adaptive control** using real-time maximum likelihood parameter estimation.
 
 ---
 
 ## **4. Implementation**
 
 - The algorithm is tested on both **simulated market scenarios** with stationary and non-stationary investment opportunities, as well as on real data.  
-- Performance metrics include **portfolio return**, **variance**, and **training efficiency**.  
+- Performance metrics include **portfolio return** and **variance**.  
 
 ---
 
